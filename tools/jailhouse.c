@@ -44,7 +44,7 @@ static const struct extension extensions[] = {
 	  "                 [--mem-hv MEM_HV] FILE" },
 	{ "config", "collect", "FILE.TAR" },
 	{ "hardware", "check", "SYSCONFIG" },
-	{ NULL }
+	{ NULL, NULL, NULL }
 };
 
 static void __attribute__((noreturn)) help(char *prog, int exit_status)
